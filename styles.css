@@ -24,7 +24,6 @@ body {
 .right {
   margin-left: 20px;
   width: 350px;
-  background: #fff;
 }
 
 .loginForm {
@@ -32,6 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #fff;
 }
 
 .loginForm img {
@@ -113,6 +113,7 @@ input[type="submit"] {
   align-items: center;
   justify-content: center;
   font-size: 0.9rem;
+  background: #fff;
 }
 
 .dontHaveAccount .signup {

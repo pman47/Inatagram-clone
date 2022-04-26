@@ -6,6 +6,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* LOGIN FORM */
+/* LOGIN FORM */
+/* LOGIN FORM */
+
 body {
   min-height: 1000px;
   width: 100%;
@@ -47,7 +51,8 @@ body {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="phone"] {
   width: 80%;
   padding: 10px;
   background: #fafafa;
@@ -55,6 +60,7 @@ input[type="password"] {
   margin-bottom: 5px;
   font-size: 0.85rem;
   opacity: 0.8;
+  border-radius: 3px;
 }
 
 input[type="submit"] {
@@ -105,7 +111,8 @@ input[type="submit"] {
   margin-bottom: 20px;
 }
 
-.dontHaveAccount {
+.dontHaveAccount,
+.HaveAccount {
   margin-top: 10px;
   padding: 20px 0;
   border: 1px solid #ccc;
@@ -116,7 +123,8 @@ input[type="submit"] {
   background: #fff;
 }
 
-.dontHaveAccount .signup {
+.dontHaveAccount .signup,
+.HaveAccount .login {
   margin-left: 5px;
   font-weight: 500;
   text-decoration: none;
@@ -142,4 +150,69 @@ input[type="submit"] {
 .facebook {
   font-size: 1.2rem;
   margin-right: 3px;
+}
+
+/* SIGN UP FORM */
+/* SIGN UP FORM */
+/* SIGN UP FORM */
+
+.SignUpContainer {
+  flex-direction: column;
+}
+
+.signUpForm {
+  width: 350px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+}
+
+.signUpForm .logo {
+  margin: 40px auto 20px;
+  width: 175px;
+}
+
+.signUpForm p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  opacity: 0.6;
+  margin-bottom: 10px;
+  width: 75%;
+}
+
+.signUpForm .loginFacebook {
+  width: 75%;
+  padding: 5px 0px;
+  background: #0095f6;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.signUpForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signUpForm .span_text {
+  margin: 20px 0;
+  width: 80%;
+  font-size: 0.8rem;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.SignUpContainer .HaveAccount {
+  width: 100%;
+}
+
+.SignUpContainer .images {
+  width: 100%;
 }

@@ -70,8 +70,58 @@ body {
   width: 25px;
 }
 
+.profile {
+  position: relative;
+}
+
 .profile img {
   border-radius: 50%;
+}
+
+.profile:hover .actions {
+  opacity: 1;
+  visibility: visible;
+}
+
+.profile .actions {
+  transition: 0.3s;
+  position: absolute;
+  top: 35px;
+  right: -10px;
+  width: 200px;
+  background: #fff;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 111;
+  border: 1px solid #ccc;
+}
+
+.actions .action {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background: #fff;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+.actions .action:hover {
+  background: rgb(221, 221, 221);
+}
+
+.actions .action .actionIcon {
+  height: 20px;
+  width: 20px;
+}
+
+.actions .action .action_title {
+  margin-left: 10px;
+  color: black;
+}
+
+.actions .action:last-child {
+  border-top: 1px solid #ccc;
 }
 
 .container {
@@ -382,7 +432,7 @@ body {
 }
 
 .box {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;

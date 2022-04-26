@@ -82,7 +82,7 @@ body {
 }
 
 .left-side {
-  background-color: #f1ddbf;
+  /* background-color: #f1ddbf; */
 }
 
 .right-side {
@@ -140,6 +140,7 @@ body {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #fff;
+  cursor: pointer;
 }
 
 .status_username {
@@ -149,4 +150,134 @@ body {
   font-size: 0.9rem;
   margin-top: 5px;
   text-transform: lowercase;
+  cursor: pointer;
+}
+
+.post_user_detail {
+  margin-top: 10px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.user_detail {
+  display: flex;
+  align-items: center;
+}
+
+.user_detail .profile_pic {
+  height: 50px;
+  width: 50px;
+}
+
+.user_detail .status_username {
+  margin: 0;
+  margin-left: 5px;
+  width: auto;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.post_user_detail .menuIcon {
+  width: 50px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuIcon img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.post_content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post_content img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.post_description {
+  width: 100%;
+  background: #fff;
+}
+
+.post_interactions {
+  height: 50px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.interactions {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.interaction_icons {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interaction_icons img {
+  height: 60%;
+  width: 60%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.saveIcon img {
+  height: 80%;
+  width: 80%;
+  cursor: pointer;
+}
+
+.description {
+  width: 100%;
+  padding: 0px 15px;
+  background: #fff;
+}
+
+.des {
+  margin: 5px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.des .status_username {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  font-size: 1rem;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.view_all_comments {
+  opacity: 0.6;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+.time {
+  padding-bottom: 10px;
+  margin: 5px 0;
+  opacity: 0.6;
+  font-size: 0.8rem;
 }

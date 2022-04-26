@@ -32,7 +32,7 @@
           <a href="" class="nav_icons inbox">
             <img src="../icons/inbox_outlined.png" alt="Inbox" />
           </a>
-          <a href="" class="nav_icons post">
+          <a href="#add_post" class="nav_icons post">
             <img src="../icons/add_post.png" alt="post" />
           </a>
           <a href="" class="nav_icons explore">
@@ -47,6 +47,27 @@
         </div>
       </div>
     </nav>
+
+    <!-- Add New Post POPUP -->
+    <div id="add_post" class="box">
+      <a class="close" href="#">&times;</a>
+      <div class="innerBox">
+        <p class="title">Create new post</p>
+        <div class="select_area">
+          <div class="innerBox2">
+            <img src="../icons//photos_video.png" alt="multimedia" />
+            <p class="innerText">Upload photos and videos here</p>
+
+            <label class="select_file">
+              <input type="file" />
+              Select from computer
+            </label>
+
+            <!-- <input type="file" name="selectFile" id="file" /> -->
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
       <div class="left-side">

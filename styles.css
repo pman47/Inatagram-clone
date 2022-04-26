@@ -1,1 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
 
+body {
+  min-height: 1000px;
+  width: 100%;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  margin-left: 20px;
+  width: 350px;
+  background: #fff;
+}
+
+.loginForm {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginForm img {
+  margin: 40px auto;
+  width: 175px;
+}
+
+.loginForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  background: #fafafa;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  width: 80%;
+  padding: 7px 0;
+  background: #0095f6;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.or {
+  margin: 15px 0;
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.or span {
+  margin: 0px 10px;
+  height: 0;
+  width: 50%;
+  border-top: 1px solid #ccc;
+}
+
+.LoginWithFacebook {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #3e5185;
+  margin-bottom: 10px;
+}
+
+.forgot {
+  text-decoration: none;
+  color: #3e5185;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.dontHaveAccount {
+  margin-top: 10px;
+  padding: 20px 0;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.dontHaveAccount .signup {
+  margin-left: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #0095f6;
+}
+
+#getTheApp {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 0.9rem;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.images img {
+  width: 150px;
+}
+
+.facebook {
+  font-size: 1.2rem;
+  margin-right: 3px;
+}

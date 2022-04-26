@@ -81,20 +81,16 @@ body {
   margin: 20px auto;
 }
 
-.left-side {
-  /* background-color: #f1ddbf; */
-}
-
 .right-side {
-  background-color: #525e75;
-  padding: 1rem;
+  /* background-color: #fbb16f; */
+  padding: 1.3rem;
 }
 
 .status {
   width: 100%;
   height: 120px;
   background: #fff;
-  border: 1px solid #fafafa;
+  border: 1px solid #ccc;
   border-radius: 2px;
   padding: 10px;
   padding-right: 0;
@@ -153,9 +149,13 @@ body {
   cursor: pointer;
 }
 
-.post_user_detail {
+.post {
   margin-top: 10px;
-  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.post_user_detail {
+  padding: 7px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -279,5 +279,104 @@ body {
   padding-bottom: 10px;
   margin: 5px 0;
   opacity: 0.6;
+  font-size: 0.8rem;
+}
+
+.myDetails {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.myDetails .profile_details {
+  display: flex;
+  align-items: center;
+}
+
+.myDetails .profile_pic {
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.more_details .username {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.more_details .name {
+  font-weight: 400;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+.myDetails .profile_pic img {
+  border: none;
+}
+
+.switch_link a {
+  color: #1da0f6;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.suggestion_part {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.suggestion_text {
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.see_all {
+  color: black;
+  text-decoration: none;
+}
+
+.other_people {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.other_people .profile_details {
+  display: flex;
+  align-items: center;
+}
+
+.other_people .profile_pic {
+  height: 35px;
+  width: 35px;
+  margin-right: 15px;
+}
+
+.other_people .username {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.other_people .name {
+  font-weight: 400;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.other_people .profile_pic img {
+  border: none;
+}
+
+.switch_link a {
+  color: #1da0f6;
+  text-decoration: none;
+  font-weight: 500;
   font-size: 0.8rem;
 }

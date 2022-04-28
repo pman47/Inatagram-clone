@@ -33,6 +33,10 @@ body {
   margin-right: 5px;
 }
 
+.logo img {
+  width: 100%;
+}
+
 .search_bar {
   display: flex;
   align-items: center;
@@ -516,4 +520,139 @@ input[type="file"] {
   color: #fff;
   font-weight: 500;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 1330px) {
+  .nav_bar {
+    width: 65%;
+  }
+  .container {
+    width: 65%;
+  }
+  .box .innerBox .select_area {
+    height: 500px;
+  }
+  .innerBox2 .innerText {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .nav_bar {
+    width: 80%;
+  }
+  .container {
+    width: 80%;
+  }
+
+  .innerBox2 img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .box .innerBox .select_area {
+    height: 450px;
+  }
+  .innerBox2 .innerText {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .select_file {
+    padding: 7px 15px;
+    background: #0095f6;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav_bar {
+    width: 80%;
+  }
+  .right-side {
+    display: none;
+  }
+  .search_bar {
+    display: none;
+  }
+  .container {
+    display: inherit;
+    grid-template-columns: none;
+  }
+
+  .box .innerBox {
+    width: 60%;
+  }
+
+  .innerBox2 img {
+    width: 50px;
+    margin-bottom: 5px;
+  }
+
+  .box .innerBox .select_area {
+    height: 350px;
+  }
+  .innerBox2 .innerText {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  .select_file {
+    padding: 7px 15px;
+    background: #0095f6;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav_bar {
+    width: 95%;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .nav_items {
+    width: auto;
+  }
+
+  .nav_items .nav_icons {
+    margin: 5px 5px;
+  }
+
+  .container {
+    width: 95%;
+    margin: 5px auto;
+  }
+
+  .box .innerBox {
+    width: 80%;
+  }
+
+  .innerBox2 img {
+    width: 50px;
+    margin-bottom: 5px;
+  }
+
+  .box .innerBox .select_area {
+    height: 300px;
+  }
+  .innerBox2 .innerText {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  .select_file {
+    padding: 7px 15px;
+    background: #0095f6;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 0.7rem;
+  }
 }

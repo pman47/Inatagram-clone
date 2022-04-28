@@ -284,3 +284,21 @@ input[type="submit"] {
   text-decoration: none;
   color: black;
 }
+
+@media screen and (max-width: 800px) {
+  .left {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+
+  .right {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .resetForm {
+    width: 350px;
+  }
+}

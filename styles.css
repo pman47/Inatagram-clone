@@ -293,6 +293,7 @@ input[type="submit"] {
   }
 
   .right {
+    width: 450px;
     margin: 0;
   }
 }
@@ -300,5 +301,24 @@ input[type="submit"] {
 @media screen and (max-width: 500px) {
   .resetForm {
     width: 350px;
+  }
+
+  .right {
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .resetForm {
+    width: 300px;
+  }
+  .signUpForm {
+    width: 300px;
+  }
+  .right {
+    width: 300px;
+  }
+  .images img {
+    width: 130px;
   }
 }

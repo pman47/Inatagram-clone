@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  border: none;
   outline: none;
   font-family: "Roboto", sans-serif;
 }
@@ -243,8 +244,8 @@ body {
 }
 
 .menuIcon img {
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   object-fit: cover;
 }
 
@@ -281,6 +282,7 @@ body {
 
 .interaction_icons {
   width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -290,12 +292,6 @@ body {
   height: 60%;
   width: 60%;
   object-fit: cover;
-  cursor: pointer;
-}
-
-.saveIcon img {
-  height: 80%;
-  width: 80%;
   cursor: pointer;
 }
 
@@ -354,6 +350,10 @@ body {
   margin-right: 15px;
 }
 
+.more_details {
+  width: 120px;
+}
+
 .more_details .username {
   font-weight: 500;
   font-size: 0.9rem;
@@ -366,6 +366,9 @@ body {
 }
 
 .myDetails .profile_pic img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   border: none;
 }
 
@@ -407,10 +410,13 @@ body {
   align-items: center;
 }
 
-.other_people .profile_pic {
+.other_people .profile_pic_suggested {
+  position: relative;
   height: 35px;
   width: 35px;
   margin-right: 15px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .other_people .username {
@@ -424,7 +430,10 @@ body {
   opacity: 0.6;
 }
 
-.other_people .profile_pic img {
+.other_people .profile_pic_suggested img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   border: none;
 }
 

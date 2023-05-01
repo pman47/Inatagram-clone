@@ -8,4 +8,4 @@
 - Homepage
 - Logout 
 
-### [Website Link](https://pman47instagramclone.netlify.app/)
+### [Website Link](https://pman47-instagram-clone.netlify.app/)
